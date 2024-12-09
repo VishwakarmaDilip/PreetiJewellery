@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="/assets/favicon-BPMFpvGG.jpg" type="image/x-icon">
+    <title>Preeti Jewellery</title>
+    <script type="module" crossorigin src="/assets/wishList-BNWCtD2U.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/getProductFromLS-56_niLHu.js">
+    <link rel="modulepreload" crossorigin href="/assets/product-CXR2ozZC.js">
+    <link rel="modulepreload" crossorigin href="/assets/showToast-Btpn-gzZ.js">
+    <link rel="stylesheet" crossorigin href="/assets/getProductFromLS-BMLu1JU4.css">
+  </head>
+  <body>
+    <header id="wishHead">
+      <nav class="navbar">
+        <div class="logo">Preeti Jewellery</div>
+        <ul class="mainNav">
+          <li>
+            <a href="home">Home</a>
+          </li>
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+          <li>
+            <a href="aboutUs">About Us</a>
+          </li>
+          <li>
+            <a href="contactUs">Contact Us</a>
+          </li>
+        </ul>
+
+        <ul class="userPart">
+          <li>
+            <a class="wishList present" href="wishList.html">
+              <i class="fa-regular fa-heart"></i>
+              <sup class="wishCount">0</sup>
+            </a>
+          </li>
+          <li>
+            <a href="signIn">
+              <i class="fa-regular fa-user"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="productsWL">
+      <div class="wishContainer"></div>
+      <section class="prodTotalElement">
+        <div class="prodTotal">
+          <p>Summary</p>
+          <div>
+            <p>Sub total:</p>
+            <p class="prodSubTotal">0</p>
+          </div>
+          <div>
+            <p>Tax:</p>
+            <p class="Tax">0</p>
+          </div>
+          <hr />
+          <div>
+            <p>Final Total:</p>
+            <p class="finalTotal">0</p>
+          </div>
+          <button class="Orderbtn">Send List</button>
+        </div>
+      </section>
+
+      <!-- template start -->
+      <template id="productTemplat">
+        <div class="WproductContainer">
+          <div class="productDetailWL">
+            <div class="imageBox">
+              <img src="/assets/Chain-CaUtz712.jpeg" alt="" />
+            </div>
+            <p class="pName">Chain</p>
+            <p class="pPrice">269</p>
+          </div>
+          <button class="WLRBtn">Remove</button>
+        </div>
+      </template>
+      <!-- template End -->
+    </div>
+
+    <footer class="section-footer">
+    </footer>
+
+  </body>
+</html>

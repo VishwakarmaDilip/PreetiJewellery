@@ -1,0 +1,1 @@
+const s=(d,t)=>{let e=document.createElement("div");e.classList.add("toast"),d==="add"?e.innerText=`Product with Id ${t} has been Added`:d==="remove"?e.innerText=`Product with ID ${t} has been Removed`:e.innerText=`Product with ID ${t} Already in List`,document.body.appendChild(e),setTimeout(()=>{e.remove()},1500)};export{s};

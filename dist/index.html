@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="/assets/favicon-BPMFpvGG.jpg" type="image/x-icon">
+    <title>Preeti Jewellery</title>
+    <script type="module" crossorigin src="/assets/main-WoQcb2gr.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/getProductFromLS-56_niLHu.js">
+    <link rel="modulepreload" crossorigin href="/assets/showToast-Btpn-gzZ.js">
+    <link rel="modulepreload" crossorigin href="/assets/addToWL-DIDVE7zd.js">
+    <link rel="stylesheet" crossorigin href="/assets/getProductFromLS-BMLu1JU4.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Preeti Jewellery</div>
+        <ul class="mainNav">
+          <li>
+            <a href="home" class="present">Home</a>
+          </li>
+          <li>
+            <a href="products.html">Products</a>
+          </li>
+          <li>
+            <a href="aboutUs">About Us</a>
+          </li>
+          <li>
+            <a href="contactUs">Contact Us</a>
+          </li>
+        </ul>
+
+        <ul class="userPart">
+          <li>
+            <a class="wishList" href="wishList.html">
+              <i class="fa-regular fa-heart"></i>
+              <sup class="wishCount">0</sup>
+            </a>
+          </li>
+          <li>
+            <a href="signIn">
+              <i class="fa-regular fa-user"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="heroSection">
+        <img class="heroImage" src="/assets/HeroImage-C1UhKJ6o.jpg" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <div class="productContainer">
+        <div class="producLineBox">
+          <h1 class="headLine">Perfect Match Every New Occasion</h1>
+          <a href="products.html">
+            <button>More Products</button>
+          </a>
+        </div>
+
+        <div class="topProducts"></div>
+
+        <!-- templet start -->
+        <template id="productTemplet">
+          <div class="productCard" id="card1">
+            <div class="productImg">
+              <img src="/assets/earRing-BG2-yX5X.jpeg" alt="earRing" />
+              <button class="addToCartBtn" btnNo="1">
+                <i class="fa-regular fa-heart"></i>
+                <p>Add to Whishlist</p>
+              </button>
+            </div>
+            <div class="productDetail">
+              <p class="productName">Ear Ring</p>
+              <p class="price">₹269</p>
+            </div>
+          </div>
+        </template>
+
+        <!-- templet end -->
+
+        <!-- <div class="topProducts">
+          <div class="productCard" id="card1">
+            <div class="productImg">
+              <img src="./public/Image/earRing.jpeg" alt="earRing" />
+              <button class="addToCartBtn" btnNo="1">
+                <i class="fa-regular fa-heart"></i>
+                <p>Add to Whishlist</p>
+              </button>
+            </div>
+            <div class="productDetail">
+              <p class="productName">Ear Ring</p>
+              <p class="price">₹269</p>
+            </div>
+          </div>
+
+          <div class="productCard" id="card2">
+            <div class="productImg">
+              <img src="public/Image/Chain.jpeg" alt="chain" />
+              <button class="addToCartBtn" btnNo="2">
+                <i class="fa-regular fa-heart"></i>
+                <p>Add to Whishlist</p>
+              </button>
+            </div>
+            <div class="productDetail">
+              <p class="productName">Chain</p>
+              <p class="price">₹369</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </main>
+
+    <footer class="section-footer">
+    </footer>
+
+  </body>
+</html>
